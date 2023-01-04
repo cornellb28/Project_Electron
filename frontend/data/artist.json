@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "name": "Jay-Z",
+        "imageUrl": "imageUrl"
+    },
+    {
+        "id": "2",
+        "name": "Foxy Brown",
+        "imageUrl": "imageUrl"
+    },
+    {
+        "id": "3",
+        "name": "LL Cool J",
+        "imageUrl": "imageUrl"
+    },
+    {
+        "id": "4",
+        "name": "Birth Control",
+        "imageUrl": "imageUrl"
+    }
+]

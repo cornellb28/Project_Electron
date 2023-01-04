@@ -1,0 +1,17 @@
+[
+    {
+        "id": "00-1",
+        "playlistId": "1",
+        "trackId": "1"
+    },
+    {
+        "id": "00-2",
+        "playlistId": "3",
+        "trackId": "3"
+    },
+    {
+        "id": "00-3",
+        "playlistId": "1",
+        "trackId": "2"
+    }
+]

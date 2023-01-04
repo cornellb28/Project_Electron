@@ -1,0 +1,114 @@
+.file-card {
+  background-color: black;
+
+  span.card-bpm {
+      color: white;
+      z-index: 1;
+      background: rgba(0, 0, 0, 0.9);
+      right: -18px;
+      display: inline-block;
+      padding: 13px;
+      top: -12px;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      text-align: center;
+      line-height: 1;
+      color: green;
+
+      .bpm-small {
+          font-size: 0.7rem;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+          color: $white;
+
+      }
+  }
+
+  .file-card-cover { max-height: 250px; }
+  .file-card-cover .card-img-overlay {
+      background: rgb(2, 0, 36);
+      background: linear-gradient(180deg, rgba(2, 0, 36, 0.0818881303) 23%, rgba(0, 0, 0, 0.98) 96%);
+      border-radius: 0;
+
+      .track-info {
+          position: absolute;
+          bottom: 0;
+          color: $white;
+          width: 85%;
+          line-height: 1.4;
+          
+          * {
+              margin-bottom: 0;
+          }
+
+          div:first-child {
+              position: relative;
+              top: -8px;
+          }
+
+          .card-song-duration {
+              font-size: 0.8rem;
+          }
+
+          .card-artist {
+              font-weight: 700;
+              text-transform: uppercase;
+              letter-spacing: -1px;
+              font-size: 1.5rem;
+              line-height: 1;
+              margin-bottom: 0.3rem;
+          }
+
+          .card-song-title {
+              font-size: 0.8rem;
+          }
+
+          
+      }
+
+
+
+  }
+}
+
+
+.file-card .card-body {
+
+  padding-top: 0;
+
+  .like {display: flex; flex-direction: row; max-width: 30px; margin-top: 1rem; margin-bottom: 1rem;}
+
+  .heart-icon {
+    filter: contrast(0.5);
+
+  }
+
+  .featured-list {
+      font-size: 0.8rem;
+      color: #ececec;
+      margin-bottom: 1.3rem;
+
+      span a {
+          display: inline-block;
+          margin-right: 4px;
+
+      }
+  }
+
+  p[class*="card-song-"] {
+      font-size: 0.8rem;
+      margin-bottom: 0.5rem;
+  }
+
+  .card-song-genre {
+      i {
+          margin-right: 1rem;
+      }
+  }
+
+  .card-song-genre .badge-light {
+      background-color: #f8f9fa;
+      color: #212529;
+      margin-bottom: 5px;
+  }
+}

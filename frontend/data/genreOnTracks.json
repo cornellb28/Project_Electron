@@ -1,0 +1,22 @@
+[
+    {
+        "id": "101",
+        "trackId": "1",
+        "genreId": "1"
+    },
+    {
+        "id": "102",
+        "trackId": "2",
+        "genreId": "1"
+    },
+    {
+        "id": "103",
+        "trackId": "1",
+        "genreId": "1"
+    },
+    {
+        "id": "103",
+        "trackId": "1",
+        "genreId": "2"
+    }
+]

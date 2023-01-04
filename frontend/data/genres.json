@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "name": "hip hop"
+    },
+    {
+        "id": "2",
+        "name": "r&b"
+    },
+    {
+        "id": "3",
+        "name": "soul"
+    },
+    {
+        "id": "4",
+        "name": "jazz"
+    },
+    {
+        "id": "5",
+        "name": "dance"
+    },
+    {
+        "id": "6",
+        "name": "trap"
+    }
+]

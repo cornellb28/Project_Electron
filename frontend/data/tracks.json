@@ -1,0 +1,53 @@
+[
+    {
+        "id": "99",
+        "title": "Regrets",
+        "createdAt": "2021-07-11T13:32:10.000Z",
+        "location": "Volume/user/regrets.mp3",
+        "bpm": "99",
+        "album": "Reasonable Doubt",
+        "fileType": "mp3",
+        "initialKey": "12A",
+        "length": "763567",
+        "size": "2490932",
+        "year": "1997",
+        "image": "blob",
+        "plays": "6",
+        "biterate": "264kps",
+        "samplerate": "44.1k"
+    },
+    {
+        "id": "98",
+        "title": "Ain't No Nigga",
+        "createdAt": "2021-07-11T13:32:10.000Z",
+        "location": "Volume/user/aint-no-nigga.mp3",
+        "bpm": "97",
+        "album": "Reasonable Doubt",
+        "fileType": "mp3",
+        "initialKey": "2A",
+        "length": "765567",
+        "size": "2488932",
+        "year": "1997",
+        "plays": "9",
+        "biterate": "264kps",
+        "image": "image",
+        "samplerate": "44.1k"
+    },
+    {
+        "id": "97",
+        "title": "Titanic",
+        "createdAt": "2021-07-11T13:32:10.000Z",
+        "location": "Volume/user/titanic.mp3",
+        "bpm": "75",
+        "album": "Birth Control",
+        "fileType": "mp3",
+        "initialKey": "12A",
+        "length": "765567",
+        "size": "2488932",
+        "year": "1978",
+        "plays": "2",
+        "biterate": "264kps",
+        "image": "image",
+        "samplerate": "44.1k"
+    }
+]

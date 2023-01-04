@@ -1,0 +1,54 @@
+GET http://localhost:5000/tracks
+
+###
+GET http://localhost:5000/tracks/012
+
+
+###
+POST http://localhost:5000/tracks
+Content-Type: application/json
+
+{
+    "id": "012",
+    "title": "Regrets",
+    "createdAt": "2021-07-11T13:32:10.000Z",
+    "location": "Volume/user/regrets.mp3",
+    "bpm": "99",
+    "album": "Reasonable Doubt",
+    "fileType": "mp3",
+    "initialKey": "12A",
+    "length": "763567",
+    "size": "2490932",
+    "year": "1997",
+    "image": "Blob",
+    "plays": "6",
+    "biterate": "264kps",
+    "samplerate": "44.1k"
+}
+
+###
+PATCH http://localhost:5000/tracks/012
+Content-Type: application/json
+
+{
+    "title": "Regrets Clean",
+    "createdAt": "2021-07-11T13:32:10.000Z",
+    "location": "Volume/user/regrets.mp3",
+    "bpm": "98",
+    "album": "Reasonable Doubt Clean",
+    "fileType": "mp3",
+    "initialKey": "12A",
+    "length": "763567",
+    "size": "2490932",
+    "year": "1997",
+    "image": "blob",
+    "plays": "10",
+    "biterate": "264kps",
+    "samplerate": "44.1k"
+}
+
+
+
+###
+DELETE http://localhost:5000/tracks/99
+Content-Type: application/json
